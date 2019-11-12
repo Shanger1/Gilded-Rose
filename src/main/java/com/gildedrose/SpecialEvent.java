@@ -2,9 +2,7 @@ package com.gildedrose;
 
 public class SpecialEvent extends Item {
 
-    public SpecialEvent(String name, int sellIn, int quality) {
-        super(name, sellIn, quality);
-    }
+    public SpecialEvent(String name, int sellIn, int quality) { super(name, sellIn, quality); }
 
     public void upgrade() {
         setSellIn(getSellIn() - 1);
