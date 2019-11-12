@@ -1,7 +1,6 @@
 package com.gildedrose;
 
 class GildedRose {
-
     Item[] items;
 
     public GildedRose(Item[] items) {
@@ -9,5 +8,4 @@ class GildedRose {
     }
 
     public void updateQuality() { for (Item item : items) item.upgrade(); }
-
 }
